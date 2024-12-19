@@ -96,7 +96,7 @@ tbody tr:nth-child(odd) {
 
 .nav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 1em 2em;
 }
 
@@ -106,15 +106,39 @@ tbody tr:nth-child(odd) {
 }
 
 .nav-link {
-  color: #fff;
-  text-decoration: none;
+  color: white !important; /* Force links to be white */
+  text-decoration: none !important; /* Remove underline */
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #ddd !important; /* Optional: lighter color for hover/focus */
+  text-decoration: none !important; /* No underline on hover/focus */
 }
 
 .active {
   font-weight: 700;
+  text-decoration: none !important; /* Ensure active links have no underline */
 }
 
 .table {
   width: 80vw;
   table-layout: fixed;
+}
+
+.no-style-navbar {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  min-width: 250px;
+  width: 100%;
 }
