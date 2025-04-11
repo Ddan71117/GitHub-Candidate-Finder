@@ -26,7 +26,7 @@ On the candidate search page, a single GitHub candidate is listed. The minus but
 
 Link for deployed application:
 
-[GitHub Candidate Finder](https://github-candidate-finder-8wxz.onrender.com)
+[GitHub Candidate Finder](https://github-candidate-finder-b19k.onrender.com)
 
 ## Tests
 
